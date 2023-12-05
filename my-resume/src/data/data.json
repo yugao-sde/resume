@@ -1,0 +1,28 @@
+{
+    "header": {
+      "name": "My Name",
+      "email": "my.email@example.com",
+      "phone": "(123) 456-7890"
+    },
+    "education": {
+      "schoolName": "Primary School Name - school name here"
+    },
+    "activities": [
+      {
+        "title": "Science Fair Participant (2023)",
+        "description": "Developed a simple volcano experiment demonstrating chemical reactions. Presented project findings to classmates and teachers."
+      },
+      {
+        "title": "Junior Soccer Team Member, School Sports Club (2022 - Present)",
+        "description": "Participate in weekly training sessions and matches. Learned teamwork and improved physical fitness."
+      },
+      {
+        "title": "Art Contest Winner, School Arts Festival (2022)",
+        "description": "Created an original painting titled 'My Dream Garden' which won first prize. Displayed creativity and attention to detail."
+      }
+    ],
+    "expertise": [
+      "I am skilled at: ",
+      "My hobbies: "
+    ]
+  }

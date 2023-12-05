@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* styles/App.css */
+html, body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+body {
+    background: linear-gradient(135deg, rgba(135,222,255,0.8) 0%, rgba(255,177,193,0.8) 100%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+@keyframes snowflakes-fall {
+  0% { top: -10%; }
+  100% { top: 100%; }
+}
+
+@keyframes snowflakes-shake {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(8px); }
+}
+
+.snowflake {
+  position: fixed;
+  top: -10%;
+  z-index: 9999;
+  color: rgba(255, 255, 255, 0.8);
+  pointer-events: none;
+  opacity: 0.8;
+  animation-name: snowflakes-fall, snowflakes-shake;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/* Snowflake Background */
+.top-left-snowflake, .bottom-right-snowflake {
+    position: fixed;
+    background-image: url('./assets/snowflake.png'); /* Update with the correct path */
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.4; /* 50% transparency */
+}
+
+.top-left-snowflake {
+    top: 0;
+    left: 0;
+    width: 50%; /* Or the size you prefer */
+    height: 50%; /* Maintain aspect ratio */
+}
