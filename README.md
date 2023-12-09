@@ -51,3 +51,15 @@ Once you have installed all the necessary dependencies, you can start the React 
   ```bash
   npm start
 
+
+# Editing the Resume information
+## 1. Edit text
+Go to `resume/src/data/data.json` to edit the infomation (ctrl/command + s to save the file), if the project is running and website page is open, you will see the change immediately
+## 2. Edit Image
+Go to `resume/src/assets` folder, replace the picture to yours, remember changing the image name to `1.jpg`, `2.jpg`, `3.jpg`, if want to extend to load more pictures , go to `resume/src/components/Carousel.js`, find the
+  ```
+  // Import images
+  import image1 from '../assets/1.jpg';
+  import image2 from '../assets/2.jpg';
+  import image3 from '../assets/3.jpg';
+and then edit and save the file.
