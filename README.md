@@ -1,70 +1,53 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Setting Up and Running the Resume Project
 
-In the project directory, you can run:
+This guide will help to set up the project on a new laptop. Follow these steps to get started:
 
-### `npm start`
+## 0. Download Project(Simple Way) and Install VSCode
+Download the project locally, we dont cover Git version controll for now, just download the ZIP format project and unzip it
+-Locate the "Download ZIP" Option:
+On the main page of the repository, look for a button or link that says something like "Code" or has an icon representing download options.
+Click on this button to open a dropdown menu.
+-Download the ZIP File:
+In the dropdown menu, you should find an option that says "Download ZIP" or similar.
+Click on this option. The ZIP file containing the repository's contents will start downloading to your computer.
+-Extract the ZIP File
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Install VS Code
+- Visit the [VS Code website](https://code.visualstudio.com/).
+- Download the recommended version suitable for your operating system.
+  
+## 1. Install Node.js and npm
 
-### `npm test`
+React projects require Node.js and npm (Node Package Manager) for managing project dependencies.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Visit the [Node.js website](https://nodejs.org/).
+- Download the Long Term Support (LTS) version suitable for your operating system.
+- Run the installer and follow the on-screen instructions to install Node.js and npm.
 
-### `npm run build`
+## 2. Open the Project in Visual Studio Code
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Launch Visual Studio Code.
+- Go to `File > Open Folder`.
+- Navigate to and select the folder name as 'resume'.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 3. Install Project Dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Open the integrated terminal in Visual Studio Code by going to `View > Terminal`.
+- Make sure you are in the project's root directory (where the `package.json` file is located).
+- Run the following command to install all the dependencies:
 
-### `npm run eject`
+  ```bash
+  npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 4. Run the React Project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Once you have installed all the necessary dependencies, you can start the React project with the following steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- In the same terminal where you executed `npm install`, run the following command:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  ```bash
+  npm start
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
